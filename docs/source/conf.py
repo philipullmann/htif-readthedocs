@@ -2,9 +2,9 @@
 
 # -- Project information
 
-project = 'MolSanitizer'
-copyright = "2024, Carlsson's Lab, Uppsala University"
-author = 'Phong Lam, Szymon Pach, Israel Cabeza de Vaca, Ruth Brenk, Jens Carlsson'
+project = 'HTIF'
+copyright = "2026, Carlsson's Lab, Uppsala University"
+author = 'Philip Ullmann, Phong Lam'
 
 release = '0.6.0'
 version = '0.6.0'
