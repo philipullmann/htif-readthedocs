@@ -64,7 +64,7 @@ The simple mode is recommended for virtual screening, where the docking poses ar
 QM calculated energy surface between two benzene rings. 3 different setups were used to compute energy surfaces between
 parallel-stacking, t-stacking and 45-degree rotation.
 
-QM setup:gg
+QM setup:
 
 - Gamess Version: 15 JUL 2024 (R2 Patch 1)  
 - Basis set: def2-TZVP

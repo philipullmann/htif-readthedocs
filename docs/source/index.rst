@@ -30,10 +30,9 @@ Contents
    :caption: General Documentation
 
    introduction
-   validation
    installation
    usage
-   config
+   interactions
    feedback
 
 .. toctree::
@@ -41,6 +40,5 @@ Contents
    :caption: Advanced Topics
    
    changes
-   python
    evaluation
    contributors

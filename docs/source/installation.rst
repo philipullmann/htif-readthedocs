@@ -10,7 +10,7 @@ HTIF C++ is built upon the following packages:
 
 By default, conda will install all the dependencies.
 
-Installation
+Install
 ------------
 
 We will set up the environment using `Anaconda <https://docs.anaconda.com/anaconda/install/index.html>`_.
