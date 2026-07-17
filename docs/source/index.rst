@@ -31,15 +31,18 @@ Contents
 
    installation
    usage
-   interactions
-   vsepr
    faq
-   feedback
+
+.. toctree::
+  :maxdepth: 2
+  :caption: Scientific Background
+
+  interactions
+  vsepr
 
 .. toctree::
    :maxdepth: 1
    :caption: Advanced Topics
    
-   changes
-   evaluation
+   feedback
    contributors
