@@ -9,6 +9,9 @@ FAQ
 | Q: Are other formats supported for the receptor except of pdb (like mmCIF)?
 | A: Currently not.
 
+| Q: Can I filter interactions for pdbs at once (e.g. different receptor mutations or trajectories)?
+| A: No, currently HTIF can only filter interactions for one pdb input at a time.
+
 | Q: Can I use Nucleic acids or peptides as ligands?
 | A: Yes, HTIF can be used to filter interactions of nucleic acids and peptides as long as they are in the formats accepted by HTIF.
 
@@ -23,6 +26,3 @@ FAQ
 
 | Q: I suspect an interaction was present but not detected by HTIF. What can I do?
 | A: Before reporting a bug, please relax your filtering criteria. For example increase the tolerance angle and distance and look if the interaction is detected.
-
-| Q: For what does HTIF stand for?
-| A: HTIF stands for High Throughput Interaction Filter.

@@ -29,10 +29,11 @@ Contents
    :maxdepth: 2
    :caption: General Documentation
 
-   introduction
    installation
    usage
    interactions
+   vsepr
+   faq
    feedback
 
 .. toctree::

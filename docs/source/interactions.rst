@@ -34,8 +34,32 @@ Salt bridges use the same algorithm as hydrogen bonds, but the donor and accepto
 Corrections are applied to ensure that delocalized charges use all atoms involved in the mesomeric system.
 
 
+Halogen bonds
+-----------------
+
+Definition of halogen bonds are taken from:
+`Halogen-bond geometry: a crystallographic data-base investigation of dihalogen complexes <https://journals.iucr.org/b/issues/2003/04/00/bm0066/index.html>`_,
+*Ouvrard C. et al.*, Acta Cryst. 2003
+
+The algorithm used to detect halogen bonds is very similar to hydrogen bonds and based on the following criteria:
+
+1. Identification of halogen bond donors and electron donating acceptors by modified SMARTS of rdkit definition.
+2. Pair acceptor and donor if the distance between the donor and acceptor is in the acceptable range.
+3. Check the donor-angle (theta-angle) between donor-halogen -> acceptor.
+4. Calculate the VSEPR geometry of the acceptor to estimate the positions of the electron pairs.
+5. If needed apply corrections to the geometry (for example in case of mesomeric systems
+6. Check the acceptor-angle (phi-angle if planar, or ny-angle if non-planar) between acceptor-basis-acceptor -> donor.
+
+By default flour is not considered as a halogen bond donor, but can be activated in the settings.
+
+
 Pi-stacking interactions
 -----------------
+
+Although no values were taken from it the calculation setup for the complex mode was inspired by the following publication:
+`Revisiting the Hunter-Sanders Model for π–π Interactions <https://pubs.acs.org/doi/10.1021/jacs.5c03169>`_,
+*Steven E. Wheeler*, JACS 2025
+
 Pi-stacking is operating with two different modes. 
 
 The algorithm used to detect pi-stacking interactions is based on the following criteria:
@@ -73,6 +97,11 @@ QM setup:
 
 Pi-cation interactions
 -----------------
+
+Definition of pi-cation interactions were inspired by:
+"`Potential Energy Curves for Cation-π Interactions: Off-Axis Configurations Are Also
+Attractive <https://pubs.acs.org/doi/10.1021/jp906086x>`_,"
+*Marshall M et al.*, J. Phys. Chem 2009
 
 The algorithm used to detect pi-cation interactions is based on the following criteria:
 
